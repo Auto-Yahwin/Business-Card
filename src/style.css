@@ -14,7 +14,7 @@ body {
   width: 90vw;
   display: flex;
   flex-direction: row;
-  margin: 50px 0px;
+  margin: 20px 0px;
   border-radius: 10px;
 }
 
@@ -54,8 +54,12 @@ button:hover {
   cursor: pointer;
 }
 
+.info{
+  width: 100%;
+}
+
 img {
-  width: 40vw;
+  width: 41vw;
   height: auto;
   border-radius: 10px 0 0 0;
 }
@@ -63,15 +67,18 @@ img {
 button {
   background-color: rgb(151, 150, 150);
   color: rgb(156, 154, 154);
-  width: 30vw;
+  width: 85%;
   height: 45px;
   border-radius: 5px;
-  margin: 20px 0 20px 0;
-  padding: 1px;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
 }
 
 span {
-  font-size: 20px;
+  font-size: 15px;
   margin-left: 10px;
   color: black;
 }
@@ -127,15 +134,19 @@ hr {
   color: rgb(242, 240, 245);
 }
 
+.fa-3x{
+  font-size: 1.5rem;
+  margin-bottom: 2px;
+}
+
 @media screen and (width <= 600px) {
   .container {
     flex-direction: column;
     width: 90vw;
-    margin: 120px 0px;
   }
 
   button {
-    width: 50vw;
+    height: 35px;
   }
 
   .info {
